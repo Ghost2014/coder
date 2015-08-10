@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+body {text-align: center;  }
+
+.viewboth{width: 990px;height: auto;margin: 0 auto; }
+.mod18Box { width:986px; height:740px; margin:20px auto;}
+.mod18{ width:990px; height: 600px;position: relative;}
+.mod18 .btn{position:absolute;width:19px;height:32px;top:666px; cursor:pointer;z-index:99;font-size:50px;font-weight:bold;}
+.mod18 .prev{left:0px;background:url(../images/prevBtn.png) no-repeat;}
+
+.viewtop{position:absolute;z-index: 99;top:280px;width:36px;height:60px; }
+.pre_top{background:url(../images/prevBtnTop.png) 0 0 no-repeat; left:0px;}
+.nex_top{ background:url(../images/nextBtnTop.png) 0 0 no-repeat; right:0px;}
+
+.mod18 .next{right:0;background:url(../images/nextBtn.png) no-repeat;}
+.mod18 li{float:left;}
+.mod18 .cf li{position:relative;color:#fff;}
+.mod18 .cf a{display:block;width:990px;height:600px;position:absolute;color:#fff;}
+.mod18 .cf li span{display:block;width:640px;position:absolute;left:0;bottom:0;padding:10px 20px;line-height:22px;text-align:left;background:rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = "#60000000",endColorstr = "#60000000");}
+.mod18 .picBox{height:600px;position:relative;overflow:hidden;}
+.mod18 .picBox ul{height:330px;position:absolute;}
+.mod18 .picBox li{width:990px;height:600px;}
+.mod18 .listBox{ width:990px; height:130px; margin:5px auto 0px auto; position: relative; padding: 6px 0 0px; overflow: hidden; }
+.mod18 .listBox ul{height:130px;position:absolute;}
+.mod18 .listBox li{width:141px;height:130px;cursor:pointer;position:relative;  float:left;}
+.mod18 .listBox li i{display:none;}
+.mod18 .listBox li a{display:block;width:130px;height:130px;}
+.mod18 .listBox li img{width:130px; height:100%;opacity:0.3;}
+.mod18 .listBox .on img{width:130px;opacity:1;}
+.mod18 .listBox .on i{display:block;}
